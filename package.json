@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "playwright": "^1.49.0",
+    "playwright-chromium": "^1.49.0",
+    "playwright-firefox": "^1.49.0",
+    "playwright-webkit": "^1.49.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.10.1"
+    
+  },
+  "scripts": {}
+}
