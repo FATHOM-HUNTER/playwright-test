@@ -17,7 +17,6 @@ export class SignUpPage {
     await expect(this.page.locator('text=Sign up successful')).toBeVisible();
   }
 
-  // Validate that the user already exists
   async validateUserExists() {
     await expect(this.page.locator('text=This user already exists')).toBeVisible();
   }
